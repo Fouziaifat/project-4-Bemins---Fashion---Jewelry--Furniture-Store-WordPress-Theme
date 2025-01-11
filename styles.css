@@ -220,7 +220,11 @@ main .item {
   -webkit-appearance: none;
   -moz-appearance: none;
 }
-
+.btn-default:hover {
+  background: #54d9e1;
+  color: #fff;
+  border: 1px solid #54d9e1;
+}
 .img-fluid {
   width: 100%;
   margin-top: 30px;
@@ -446,10 +450,6 @@ footer h3 {
   font-weight: 500;
 }
 
-footer .btn-default {
-  border-color: #fff;
-  color: #fff;
-}
 @media (max-width: 1024px) {
   footer {
     padding: 350px 0 120px;
